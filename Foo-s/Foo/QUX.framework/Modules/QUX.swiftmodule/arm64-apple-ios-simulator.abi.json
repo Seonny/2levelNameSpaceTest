@@ -1,0 +1,56 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QUX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Qux",
+        "printedName": "Qux",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fred",
+            "printedName": "fred()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3QUX3QuxO4fredyyFZ",
+            "mangledName": "$s3QUX3QuxO4fredyyFZ",
+            "moduleName": "QUX",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:3QUX3QuxO",
+        "mangledName": "$s3QUX3QuxO",
+        "moduleName": "QUX",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

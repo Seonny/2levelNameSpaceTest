@@ -1,0 +1,6 @@
+framework module Grault {
+  umbrella header "Grault.h"
+  export *
+
+  module * { export * }
+}

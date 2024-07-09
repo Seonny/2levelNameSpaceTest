@@ -1,0 +1,56 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Grault",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Grault",
+        "printedName": "Grault",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "plugh",
+            "printedName": "plugh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GraultAAO5plughyyFZ",
+            "mangledName": "$s6GraultAAO5plughyyFZ",
+            "moduleName": "Grault",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6GraultAAO",
+        "mangledName": "$s6GraultAAO",
+        "moduleName": "Grault",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

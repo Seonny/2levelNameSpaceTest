@@ -1,0 +1,6 @@
+framework module QUX {
+  umbrella header "QUX.h"
+  export *
+
+  module * { export * }
+}
